@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeInfo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pokémon Info</h1>
+        <div class="search-box">
+            <label for="pokemon-id">Ingresa el ID del Pokemon:</label>
+            <input type="number" id="pokemon-id" placeholder="1 - 1010">
+            <button id="search-btn">Buscar</button>
+        </div>
+        <div class="pokemon-card" id="pokemon-card">
+            <h2 class="pokemon-name">Nombre del Pokemon</h2>
+            <img class="pokemon-img" src="https://via.placeholder.com/150" alt="Imagen del Pokemon">
+            <div class="info-container">
+                <div class="info">
+                    <p class="pokemon-info">Type: <span id="pokemon-type">Tipo Pokemon</span></p>
+                    <p class="pokemon-info">Height: <span id="pokemon-height">Altura</span> m</p>
+                    <p class="pokemon-info">Weight: <span id="pokemon-weight">Peso</span> kg</p>
+                    <p class="pokemon-info">Abilities: <span id="pokemon-abilities">Habilidad1, Habilidad2</span></p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
